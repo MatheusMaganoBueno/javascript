@@ -20,4 +20,6 @@ function  carregar() {
         img.scr = 'noite.png'
         document.body.style.background = 'grey'
     }
+    //ACABOU SEUS LINDOS
+
 }
