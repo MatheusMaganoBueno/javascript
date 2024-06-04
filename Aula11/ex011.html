@@ -45,13 +45,12 @@
     </div>
     <script>
         function calcular() {
-            var pa = 'EUA'
             var pa = window.document.getElementById('ipais')
             var res = window.document.querySelector('div#res')
 
             res.innerHTML += `<p>Você mora em <strong>${pa}</strong>!</p>`
 
-            if (pa =='Brasil') {
+            if (pa ='Brasil') {
                 res.innerHTML += '<p>Você é <strong>Brasileiro!</strong></p>'
             } else {
                 res.innerHTML += '<p>Você é <strong>Estrangeiro!</strong></p>'
