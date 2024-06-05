@@ -5,19 +5,18 @@ function  carregar() {
     var hora = data.getHours()
     msg.innerHTML = `Agora são ${hora} horas.`
 
-    if (hora >= 0 && hora < 12) {
+    if (hora >= 6 && hora < 12) {
         //BOM DIA!!
         console.log(hora)
-        img.scr = 'manha.png'
-        document.body.style.background = 'violet'
+        document.body.style.background = '#FDDFC1'
+        img.scr = './manha.png'
     } else if(hora >= 12 && hora < 18) {
         //BOR TARDE!!
         console.log(hora)
-        img.scr = 'tarde.png'
-        document.body.style.background = 'blue'
+        document.body.style.background = '##E5B59E'
+        img.scr = './tarde.png'
     } else {
-        //BOA NOITE!!
-        img.scr = 'noite.png'
-        document.body.style.background = 'grey'
+        document.body.style.background = '#171918'
+        img.src = './noite.png'
     }
 }

@@ -25,6 +25,18 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+div#msg {
+    margin-top: 10px;
+}
+
+div#foto {
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
+
 footer {
     color: white;
     text-align: center;
