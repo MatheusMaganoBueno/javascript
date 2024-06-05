@@ -7,7 +7,7 @@
 
 body {
     font: normal 1.5em Arial;
-    background-color: rgb(70,142, 236);
+    background: linear-gradient(to right,rgba(0, 0, 255, 0.836), rgba(255, 0, 221, 0.575));
 }
 
 header {
@@ -16,13 +16,39 @@ header {
 
 }
 
+header > h1 {
+    padding: 30px ;
+}
+
 section {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
+    height: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+section > div#ano {
+    padding: 10px;
+    background: linear-gradient(to left , white ,rgba(0, 0, 255, 0.836))
+}
+
+section > div#sex {
+    padding: 10px;
+    background: linear-gradient(to right , white , rgba(255, 0, 221, 0.705))
+}
+
+input#botao {
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+}
+
+input#botao:hover{
+    background:linear-gradient(to right,rgba(0, 0, 255, 0.836), rgba(255, 0, 221, 0.575));
+    padding: 4px;
 }
 
 footer {
@@ -30,5 +56,5 @@ footer {
     text-align: center;
     font-size: 1em;
     font-style: italic;
-    
+
 }
